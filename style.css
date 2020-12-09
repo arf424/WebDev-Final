@@ -1,0 +1,61 @@
+a  {
+  color: #ffffff;
+  text-decoration: none;
+}
+body {
+  background-image: linear-gradient(to bottom right, grey, white);
+  height: 785px;
+}
+.MenuButtons{
+  font-family: "Copperplate", fantasy;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+ }
+ .HomeScreen{
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25%;
+}
+.MagicButton{
+	display: flex;
+	justify-content: center;
+
+
+}
+.AboutMe{
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.AboutMeContent{
+	font-size: 18px;
+	display: flex;
+	justify-content: space-between;
+	height: 10px;
+}
+
+
+.WP{
+	width: 100px;
+}
+
+.ContactContent{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 150px;
+}
+.ContactForm{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
