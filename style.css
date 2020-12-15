@@ -3,6 +3,7 @@ a  {
   text-decoration: none;
 }
 body {
+	font-family: 'Oswald', sans-serif;
   background-image: linear-gradient(to bottom right, grey, white);
   height: 785px;
 }
@@ -42,11 +43,42 @@ body {
 	height: 10px;
 }
 
-
-.WP{
-	width: 100px;
+.WorkPage{
+	background-image: linear-gradient(to bottom right, grey, white);
+  height: auto;
+}
+.WastedPotential{
+	height: 30%;
+}
+.WPpic{
+	width: 300px;
+	height: auto;
 }
 
+.MakeItBump{
+	height: 30%;
+}
+.hyperglowpic{
+	width: 300px;
+	height: auto;
+}
+
+.NYU{
+	height: 30%;
+}
+
+.snakepic{
+	width: 300px;
+	height: auto;
+}
+.menupic{
+	width: 300px;
+	height: auto;
+}
+.pongpic{
+	width: 300px;
+	height: auto;
+}
 .ContactContent{
 	display: flex;
 	flex-direction: column;
