@@ -19,28 +19,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 25%;
 }
 .MagicButton{
 	display: flex;
 	justify-content: center;
 
-
 }
-.AboutMe{
-	font-size: 20px;
+.columns{
 	display: flex;
 	flex-direction: row;
+	font-size: 25px;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	padding-left: 2%;
 	padding-right: 2%;
+	padding-left: 2%;
+    //box-sizing: border-box;
+    //display: inline-block;
+    text-align: center;
+
 }
-.AboutMeContent{
-	font-size: 18px;
+.columns p{
+	width: 25%;
+}
+.columns h1{
+	width: 33%;
+	text-align: center;
+}
+
+.Headshot{
+	width: 50%;
 	display: flex;
-	justify-content: space-between;
-	height: 10px;
+	justify-content: center;
+}
+.Headshot img{
+	width: 100%;
+	min-width: 200px;
+	max-width: 400px;
+	text-align: center;
+	min-height: 200px;
+	max-height: 400px;
+	padding-right: 20px;
 }
 
 .WorkPage{
